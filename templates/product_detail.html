@@ -1,0 +1,9 @@
+{% extends 'base.html' %}
+
+{% block content %}
+
+<h1>{{ product.title }} - ${{ product.price }}</h1>
+<p> {{ product.description }}</p>
+<p> <strong>{{ product.summary }}</strong></p>
+
+{% endblock %}
